@@ -4,7 +4,6 @@ print(array)
 
 gap = len(array)//2
 while gap > 0:
-    
     for i in range(gap,len(array)):
         newElement = array[i]
         j = i
